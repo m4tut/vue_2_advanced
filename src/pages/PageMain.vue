@@ -2,7 +2,7 @@
   <DefaultLayout> main </DefaultLayout>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: 'PageMain',
 

@@ -6,7 +6,6 @@ import router from '@shared/router'
 import store from '@shared/store'
 
 // Styles
-import '@assets/styles/library/normalize.css'
 import '@assets/styles/main.scss'
 
 Vue.config.productionTip = false

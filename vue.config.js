@@ -26,6 +26,7 @@ module.exports = {
         '@api': path.resolve(__dirname, 'src/shared/api/'),
         '@assets': path.resolve(__dirname, 'src/shared/assets/'),
         '@store': path.resolve(__dirname, 'src/shared/store/'),
+        '@layouts': path.resolve(__dirname, 'src/shared/layouts/'),
       },
     },
   },

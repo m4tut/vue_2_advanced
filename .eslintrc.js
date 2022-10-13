@@ -174,5 +174,6 @@ module.exports = {
     ],
     'vue/singleline-html-element-content-newline': 0,
     'prettier/prettier': 0,
+    'vue/order-in-components': 2,
   },
 }

@@ -12,7 +12,7 @@ const route = (
     path,
     name,
     redirect,
-    component: (resolve) => import(`@pages/${name}.vue`).then(resolve),
+    component: () => import(`@pages/${name}.vue`),
   }
 }
 

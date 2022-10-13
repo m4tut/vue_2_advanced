@@ -26,7 +26,8 @@
       "@widgets/*": ["./src/widgets/*"],
       "@api/*": ["./src/shared/api/*"],
       "@assets/*": ["./src/shared/assets/*"],
-      "@store/*": ["./src/shared/store/*"]
+      "@store/*": ["./src/shared/store/*"],
+      "@layouts/*": ["./src/shared/layouts/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },

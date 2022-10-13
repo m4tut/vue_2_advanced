@@ -1,12 +1,15 @@
 <template>
-  <div>main</div>
+  <DefaultLayout> main </DefaultLayout>
 </template>
 
 <script>
 export default {
   name: 'PageMain',
+
+  components: {
+    DefaultLayout: () => import('@layouts/DefaultLayout'),
+  },
 }
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

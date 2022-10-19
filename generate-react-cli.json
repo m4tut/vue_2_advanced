@@ -1,0 +1,60 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "generateTemplates/default/TemplateName.vue",
+        "story": "generateTemplates/default/TemplateName.story.ts",
+        "test": "generateTemplates/default/TemplateName.test.ts",
+        "lazy": "generateTemplates/default/index.ts"
+      },
+      "path": "src/widgets",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    },
+    "entitie": {
+      "customTemplates": {
+        "component": "generateTemplates/default/TemplateName.vue",
+        "story": "generateTemplates/default/TemplateName.story.ts",
+        "test": "generateTemplates/default/TemplateName.test.ts",
+        "lazy": "generateTemplates/default/index.ts"
+      },
+      "path": "src/entities",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    },
+    "feature": {
+      "customTemplates": {
+        "component": "generateTemplates/default/TemplateName.vue",
+        "story": "generateTemplates/default/TemplateName.story.ts",
+        "test": "generateTemplates/default/TemplateName.test.ts",
+        "lazy": "generateTemplates/default/index.ts"
+      },
+      "path": "src/features",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    },
+    "ui": {
+      "customTemplates": {
+        "component": "generateTemplates/default/TemplateName.vue",
+        "story": "generateTemplates/default/TemplateName.story.ts",
+        "test": "generateTemplates/default/TemplateName.test.ts",
+        "lazy": "generateTemplates/default/index.ts"
+      },
+      "path": "src/shared/ui",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": true
+    }
+  }
+}

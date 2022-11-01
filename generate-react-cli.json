@@ -6,10 +6,10 @@
   "component": {
     "default": {
       "customTemplates": {
-        "component": "generateTemplates/default/TemplateName.vue",
-        "story": "generateTemplates/default/TemplateName.story.ts",
-        "test": "generateTemplates/default/TemplateName.test.ts",
-        "lazy": "generateTemplates/default/index.ts"
+        "component": "templates/default/TemplateName.vue",
+        "story": "templates/default/TemplateName.story.ts",
+        "test": "templates/default/TemplateName.test.ts",
+        "lazy": "templates/default/index.ts"
       },
       "path": "src/widgets",
       "withStyle": false,
@@ -19,10 +19,10 @@
     },
     "entitie": {
       "customTemplates": {
-        "component": "generateTemplates/default/TemplateName.vue",
-        "story": "generateTemplates/default/TemplateName.story.ts",
-        "test": "generateTemplates/default/TemplateName.test.ts",
-        "lazy": "generateTemplates/default/index.ts"
+        "component": "templates/default/TemplateName.vue",
+        "story": "templates/default/TemplateName.story.ts",
+        "test": "templates/default/TemplateName.test.ts",
+        "lazy": "templates/default/index.ts"
       },
       "path": "src/entities",
       "withStyle": false,
@@ -32,10 +32,10 @@
     },
     "feature": {
       "customTemplates": {
-        "component": "generateTemplates/default/TemplateName.vue",
-        "story": "generateTemplates/default/TemplateName.story.ts",
-        "test": "generateTemplates/default/TemplateName.test.ts",
-        "lazy": "generateTemplates/default/index.ts"
+        "component": "templates/default/TemplateName.vue",
+        "story": "templates/default/TemplateName.story.ts",
+        "test": "templates/default/TemplateName.test.ts",
+        "lazy": "templates/default/index.ts"
       },
       "path": "src/features",
       "withStyle": false,
@@ -45,10 +45,10 @@
     },
     "ui": {
       "customTemplates": {
-        "component": "generateTemplates/default/TemplateName.vue",
-        "story": "generateTemplates/default/TemplateName.story.ts",
-        "test": "generateTemplates/default/TemplateName.test.ts",
-        "lazy": "generateTemplates/default/index.ts"
+        "component": "templates/default/TemplateName.vue",
+        "story": "templates/default/TemplateName.story.ts",
+        "test": "templates/default/TemplateName.test.ts",
+        "lazy": "templates/default/index.ts"
       },
       "path": "src/shared/ui",
       "withStyle": false,

@@ -13,6 +13,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install",
+    "g": "generate-react component",
     "gUi": "generate-react component --type=ui",
     "gEntitie": "generate-react component --type=entitie",
     "gFeature": "generate-react component --type=feature"

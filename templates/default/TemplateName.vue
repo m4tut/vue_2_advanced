@@ -9,3 +9,5 @@ export default Vue.extend({
   name: 'TemplateName',
 })
 </script>
+
+<style lang="scss" scoped></style>

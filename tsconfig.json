@@ -27,22 +27,18 @@
       "@api/*": ["./src/shared/api/*"],
       "@assets/*": ["./src/shared/assets/*"],
       "@store/*": ["./src/shared/store/*"],
-      "@layouts/*": ["./src/shared/layouts/*"]
+      "@layouts/*": ["./src/shared/layouts/*"],
+      "@ui/*": ["./src/shared/ui/*"],
+      "@utils/*": ["./src/shared/utils/*"],
+      "@middleware/*": ["./src/shared/middleware/*"],
+      "@interfaces/*": ["./src/shared/interfaces/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "types/*.d.ts",
   ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts",
-    "**/*.test.ts",
-    "**/*.story.ts",
-    "**/*.stories.ts"
-  ]
+  "exclude": ["node_modules"]
 }

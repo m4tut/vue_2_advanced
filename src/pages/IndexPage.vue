@@ -1,15 +1,18 @@
 <template>
-  <DefaultLayout> main </DefaultLayout>
+  <DefaultLayout>
+    <AppContainer> main </AppContainer>
+  </DefaultLayout>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'PageMain',
+  name: 'IndexPage',
 
   components: {
     DefaultLayout: () => import('@layouts/DefaultLayout'),
+    AppContainer: () => import('@/shared/layouts/AppContainer'),
   },
 })
 </script>

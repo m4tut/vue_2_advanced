@@ -8,7 +8,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'ContainerLayout',
+  name: 'AppContainer',
 })
 </script>
 
@@ -17,5 +17,7 @@ export default Vue.extend({
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+
+  padding: 0 15px;
 }
 </style>

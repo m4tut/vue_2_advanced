@@ -14,6 +14,7 @@ module.exports = {
     '@api/([^\\.]*)$': '<rootDir>/src/shared/api/$1',
     '@assets/([^\\.]*)$': '<rootDir>/src/shared/assets/$1',
     '@store/([^\\.]*)$': '<rootDir>/src/shared/store/$1',
+    '@utils/([^\\.]*)$': '<rootDir>/src/shared/utils/$1',
     '\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/__mocks__/img.ts',
   },
   transform: {

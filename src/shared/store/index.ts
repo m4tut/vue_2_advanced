@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+import Vuex, { StoreOptions } from 'vuex'
+import { IRootState } from '@interfaces/store/root'
 
 Vue.use(Vuex)
 
@@ -9,10 +10,13 @@ import mutations from './mutations'
 import actions from './actions'
 import modules from './modules'
 
-export default new Vuex.Store({
+const store: StoreOptions<IRootState> = {
+  strict: true,
   state,
   getters,
   mutations,
   actions,
   modules,
-})
+}
+
+export default new Vuex.Store<IRootState>(store)

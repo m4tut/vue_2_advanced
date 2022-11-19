@@ -17,7 +17,8 @@ const route = (
 }
 
 const routes: Array<RouteConfig> = [
-  route('/', 'PageMain'),
+  route('/', 'IndexPage'),
+  route('/error', 'Error500'),
   route('/:catchAll(.*)', 'Error404'),
 ]
 

@@ -26,7 +26,7 @@ module.exports = {
     'arrow-spacing': [2, { before: true, after: true }],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs', { allowSingleLine: true }],
-    camelcase: [2, { properties: 'always' }],
+    camelcase: 0,
     'comma-dangle': [2, 'always-multiline'],
     'comma-spacing': [2, { before: false, after: true }],
     'comma-style': [2, 'last'],
@@ -118,7 +118,7 @@ module.exports = {
     'operator-linebreak': [
       2,
       'after',
-      { overrides: { '?': 'before', ':': 'before' }},
+      { overrides: { '?': 'before', ':': 'before' } },
     ],
     'padded-blocks': [2, 'never'],
     quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
@@ -156,13 +156,13 @@ module.exports = {
     'prefer-const': 2,
     'no-console': process.env.NODE_ENV === 'production' ? 2 : 1,
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
+    'object-curly-spacing': [2, 'always', { objectsInObjects: true }],
     'array-bracket-spacing': [2, 'never'],
     'vue/jsx-uses-vars': 2,
     'vue/multi-word-component-names': [2, { ignores: ['Error404'] }],
     'vue/max-attributes-per-line': [
       2,
-      { singleline: { max: 3 }, multiline: { max: 1 }},
+      { singleline: { max: 4 }, multiline: { max: 1 } },
     ],
     'vue/html-self-closing': [
       2,

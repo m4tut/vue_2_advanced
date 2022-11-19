@@ -13,8 +13,8 @@
       },
       "path": "src/widgets",
       "withStyle": false,
-      "withTest": true,
-      "withStory": true,
+      "withTest": false,
+      "withStory": false,
       "withLazy": true
     },
     "entitie": {

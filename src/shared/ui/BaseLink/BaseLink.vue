@@ -1,5 +1,5 @@
 <template>
-  <RouterLink class="link" :to="href"> <slot /> </RouterLink>
+  <router-link class="link" :to="href"> <slot /> </router-link>
 </template>
 
 <script lang="ts">

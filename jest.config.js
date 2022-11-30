@@ -1,7 +1,8 @@
 module.exports = {
   testEnvironment: 'jsdom',
+  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/src/**/?(*.)+(spec|test).[jt]s?(x)'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-  moduleFileExtensions: ['js', 'json', 'vue'],
+  moduleFileExtensions: ['js', 'ts', 'json', 'vue'],
   moduleNameMapper: {
     '@/([^\\.]*)$': '<rootDir>/src/$1',
     '@app/([^\\.]*)$': '<rootDir>/src/app/$1',
@@ -15,10 +16,17 @@ module.exports = {
     '@assets/([^\\.]*)$': '<rootDir>/src/shared/assets/$1',
     '@store/([^\\.]*)$': '<rootDir>/src/shared/store/$1',
     '@utils/([^\\.]*)$': '<rootDir>/src/shared/utils/$1',
+    '@ui/([^\\.]*)$': '<rootDir>/src/shared/ui/$1',
+    '@interfaces/([^\\.]*)$': '<rootDir>/src/shared/interfaces/$1',
+    '@types/([^\\.]*)$': '<rootDir>/src/shared/types/$1',
+    '@middleware/([^\\.]*)$': '<rootDir>/src/shared/middleware/$1',
+    '@layouts/([^\\.]*)$': '<rootDir>/src/shared/layouts/$1',
+    '@mocks/([^\\.]*)$': '<rootDir>/src/shared/mocks/$1',
     '\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/__mocks__/img.ts',
   },
   transform: {
     '^.+\\.js$': 'babel-jest',
     '^.+\\.vue$': '@vue/vue2-jest',
+    '^.+\\.tsx?$': 'ts-jest',
   },
 }

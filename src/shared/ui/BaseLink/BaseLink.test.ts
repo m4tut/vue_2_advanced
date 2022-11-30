@@ -1,11 +1,15 @@
-import { render, screen } from '@testing-library/vue'
+import { render } from '@testing-library/vue'
 
 import BaseLink from './BaseLink.vue'
 
 describe('<BaseLink />', () => {
   test('Render component', () => {
-    render(BaseLink)
+    const options = {
+      props: {
+        href: '/test',
+      },
+    }
 
-    screen.debug()
+    render(BaseLink, options)
   })
 })

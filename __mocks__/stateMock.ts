@@ -8,7 +8,7 @@ const localVue = createLocalVue()
 localVue.use(Vuex)
 
 const stateMock = new Vuex.Store({
-  ...rootStore
+  ...rootStore,
 })
 
 export default stateMock

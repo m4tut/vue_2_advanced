@@ -26,8 +26,8 @@
       },
       "path": "src/entities",
       "withStyle": false,
-      "withTest": true,
-      "withStory": true,
+      "withTest": false,
+      "withStory": false,
       "withLazy": true
     },
     "feature": {
@@ -39,8 +39,21 @@
       },
       "path": "src/features",
       "withStyle": false,
-      "withTest": true,
-      "withStory": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": true
+    },
+    "processe": {
+      "customTemplates": {
+        "component": "templates/default/TemplateName.vue",
+        "story": "templates/default/TemplateName.story.ts",
+        "test": "templates/default/TemplateName.test.ts",
+        "lazy": "templates/default/index.ts"
+      },
+      "path": "src/features",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
       "withLazy": true
     },
     "ui": {

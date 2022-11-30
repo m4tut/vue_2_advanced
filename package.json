@@ -16,7 +16,8 @@
     "g": "generate-react component",
     "gUi": "generate-react component --type=ui",
     "gEntitie": "generate-react component --type=entitie",
-    "gFeature": "generate-react component --type=feature"
+    "gFeature": "generate-react component --type=feature",
+    "gProcesse": "generate-react component --type=processe"
   },
   "dependencies": {
     "axios": "^1.1.2",

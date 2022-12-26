@@ -32,7 +32,8 @@
       "@utils/*": ["./src/shared/utils/*"],
       "@middleware/*": ["./src/shared/middleware/*"],
       "@interfaces/*": ["./src/shared/interfaces/*"],
-      "@mocks/*": ["./src/shared/mocks/*"]
+      "@mocks/*": ["./src/shared/mocks/*"],
+      "@mixins/*": ["./src/shared/mixins/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },

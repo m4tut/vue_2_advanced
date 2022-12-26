@@ -32,6 +32,7 @@ module.exports = {
         '@middleware': path.resolve(__dirname, 'src/shared/middleware/'),
         '@interfaces': path.resolve(__dirname, 'src/shared/interfaces/'),
         '@mocks': path.resolve(__dirname, 'src/shared/mocks/'),
+        '@mixins': path.resolve(__dirname, 'src/shared/mixins/'),
       },
     },
   },

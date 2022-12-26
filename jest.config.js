@@ -22,6 +22,7 @@ module.exports = {
     '@middleware/([^\\.]*)$': '<rootDir>/src/shared/middleware/$1',
     '@layouts/([^\\.]*)$': '<rootDir>/src/shared/layouts/$1',
     '@mocks/([^\\.]*)$': '<rootDir>/src/shared/mocks/$1',
+    '@mixins/([^\\.]*)$': '<rootDir>/src/shared/mixins/$1',
     '\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/__mocks__/img.ts',
   },
   transform: {

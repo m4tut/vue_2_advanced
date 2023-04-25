@@ -23,6 +23,7 @@ module.exports = {
 
   rules: {
     'accessor-pairs': 2,
+    'arrow-parens': [2, 'always'],
     'arrow-spacing': [2, { before: true, after: true }],
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs', { allowSingleLine: true }],
@@ -86,6 +87,12 @@ module.exports = {
     'no-obj-calls': 2,
     'no-octal': 2,
     'no-octal-escape': 2,
+    'no-param-reassign': [
+      'error',
+      {
+        ignorePropertyModificationsFor: ['state'],
+      },
+    ],
     'no-path-concat': 2,
     'no-proto': 2,
     'no-redeclare': 2,
@@ -114,12 +121,20 @@ module.exports = {
     'no-useless-escape': 0,
     'no-whitespace-before-property': 2,
     'no-with': 2,
-    'one-var': [2, { initialized: 'never' }],
-    'operator-linebreak': [
+    'max-len': [
+      'error',
+      120,
       2,
-      'after',
-      { overrides: { '?': 'before', ':': 'before' } },
+      {
+        ignoreUrls: true,
+        ignoreComments: false,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      },
     ],
+    'one-var': [2, { initialized: 'never' }],
+    'operator-linebreak': [2, 'after', { overrides: { '?': 'before', ':': 'before' } }],
     'padded-blocks': [2, 'never'],
     quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     semi: [2, 'never'],
@@ -136,15 +151,7 @@ module.exports = {
       2,
       'always',
       {
-        markers: [
-          'global',
-          'globals',
-          'eslint',
-          'eslint-disable',
-          '*package',
-          '!',
-          ',',
-        ],
+        markers: ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ','],
       },
     ],
     'template-curly-spacing': [2, 'never'],
@@ -155,15 +162,12 @@ module.exports = {
     yoda: [2, 'never'],
     'prefer-const': 2,
     'no-console': process.env.NODE_ENV === 'production' ? 2 : 1,
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 1,
     'object-curly-spacing': [2, 'always', { objectsInObjects: true }],
     'array-bracket-spacing': [2, 'never'],
     'vue/jsx-uses-vars': 2,
     'vue/multi-word-component-names': [2, { ignores: ['Error404'] }],
-    'vue/max-attributes-per-line': [
-      2,
-      { singleline: { max: 4 }, multiline: { max: 1 } },
-    ],
+    'vue/max-attributes-per-line': [2, { singleline: { max: 4 }, multiline: { max: 1 } }],
     'vue/html-self-closing': [
       2,
       {
